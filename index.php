@@ -1,7 +1,7 @@
 <?php
 
 try {
-     $db = new PDO("mysql:host=localhost;dbname=ders", "root", "1992_1967");
+     $db = new PDO("mysql:host=localhost;dbname=ders", "root", "");
 } catch ( PDOException $e ){
      print $e->getMessage();
 }
